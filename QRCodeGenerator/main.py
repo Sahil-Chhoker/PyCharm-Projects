@@ -1,6 +1,6 @@
 import qrcode as qr
 
-links = [["YouTube", "https://www.youtube.com/"]]
+links = [["YouTube", "https://www.youtube.com/"], ["GitHub", "https://github.com/Sahil-Chhoker"]]
 
 for link in links:
     img = qr.make(link[1])
