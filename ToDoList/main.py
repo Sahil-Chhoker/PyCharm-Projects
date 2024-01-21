@@ -44,7 +44,10 @@ def markcompleted():
 frame_task = Frame(window)
 frame_task.pack()
 
-listbox_task = Listbox(frame_task, bg="lightgreen", fg="black", activestyle="dotbox", height=15, width=50, font="Helvetica")
+listbox_task = Listbox(frame_task, bg="lightgreen", fg="black",
+                       activestyle="dotbox", height=15,
+                       width=50, font="Helvetica")
+
 listbox_task.pack(side=tkinter.LEFT)
 
 scrollbar_tasks = Scrollbar(frame_task)
